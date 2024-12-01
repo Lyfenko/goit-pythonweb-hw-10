@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "goit-pythonweb-hw-10"
+version = "0.1.0"
+description = ""
+authors = ["Dmytro Lyfenko <114363730+Lyfenko@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.95.1"
+uvicorn = "^0.22.0"
+sqlalchemy = "^2.0.12"
+passlib = "^1.7.4"
+jose = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
